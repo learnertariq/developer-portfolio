@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+.section {
+  margin-bottom: 10rem;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 100%;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
+.text--orange {
+  background: -webkit-linear-gradient(
+    45deg,
+    orange 10%,
+    orange 30%,
+    blue 40%,
+    blue 60%,
+    red 70%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heading--4 {
+  margin-bottom: 3rem;
+  font-size: 4rem;
+}
+
+.flex-item {
+  padding: 3%;
+  width: 50%;
+}
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.btn--block {
+  text-align: center;
+  display: block;
+}
+
+.btn--orange {
+  background-color: red;
+  background-image: linear-gradient(200deg, orange, red);
+  color: #fff;
+}
+
+/* first-intro */
+.first-intro {
+  background-image: url(../assets/top-banner.png);
+  background-repeat: no-repeat;
+}
+.first-intro__desc {
+  width: 50%;
+}
+
+.first-intro__para {
+  margin-bottom: 2rem;
+}
+
+.first-intro__img {
+  width: 80%;
+}
+
+/* islamic-life */
+.islamic-life {
+  flex-direction: row-reverse;
+  background-image: url(../assets/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+/* life-story */
+.life-story {
+  flex-direction: row-reverse;
+}
